@@ -39,7 +39,7 @@ function limparCampo(){
 function sortearAmigo(){
 
     let quantidadeAmigos = amigos.length;
-    let numeroSorteado = parseInt(Math.random() * quantidadeAmigos);
+    let numeroSorteado = parseInt(Math.random() * quantidadeAmigos);//
     let amigoEscolhido = document.getElementById("resultado");
 
     amigoEscolhido.innerHTML = amigos[numeroSorteado];
