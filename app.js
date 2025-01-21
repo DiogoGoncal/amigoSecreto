@@ -42,6 +42,6 @@ function sortearAmigo(){
     let numeroSorteado = parseInt(Math.random() * quantidadeAmigos);
     let amigoEscolhido = document.getElementById("resultado");
 
-    amigoEscolhido.innerHTML = amigos[numeroSorteado];
+    amigoEscolhido.innerHTML = amigos[numeroSorteado];//
 
 }
